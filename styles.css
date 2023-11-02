@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#produtos{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  padding: 10px
+}
+#produtos div{
+  margin: 10px
+}
+#contato{
+  display:flex;
+  justify-content:center;
+  margin-top:100px;
+  background:linear-gradient(45deg,red,blue);
+  padding:100px;
+}
+#contato form{
+  width: 500px;
+  color: white;
+}
+.form-text{
+  color: white;
+}nav{
+  z-index: 100;
+  background:linear-gradient(45deg,red,blue);
+  position:fixed;
+  top:0;
+}
+#planos{
+  display:flex;
+  justify-content:center;
+  height:400px;
+  margin-top:50px;
+  margin-bottom:50px;
+  align-items:center;
+}
+#planos div{
+  height: 400px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin:10px;
+}
+#carouselExampleCaptions{
+  background:linear-gradient(45deg,red,blue);
+  border-radius: 16px;
+}
+#sobre{
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
+#rodape-text{
+  text-decoration:none;
+  color:white;
+  margin-left:10px;
+}
+#rodape{
+  height:100px;
+  margin-top:100px;
+  color: white;
+  background:linear-gradient(45deg,red,blue);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+#text-produtos{
+  margin-top:100px;
+  text-align:center;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.btn-success{
+  background-color:blue;
+}
+.titulo-plano{
+  font-style: italic;
+  font-size: 34px;
+  
+}
+.titulo-plano-red{
+  /* Define o gradiente de azul para vermelho */
+  background-image: linear-gradient(to right, blue 10%, red 30%) ; 
+/* Faz com que o texto seja a área de clipagem do gradiente */
+  -webkit-background-clip: text; 
+  /* Torna o texto transparente para que o gradiente seja visível por trás */
+  color: transparent; 
+}
+.titulo-plano-green{
+/* Define o gradiente de azul para vermelho */
+  background-image: linear-gradient(45deg, blue 10%, rgb(71, 204, 9) 30%) ; 
+   /* Faz com que o texto seja a área de clipagem do gradiente */
+  -webkit-background-clip: text;
+/* Torna o texto transparente para que o gradiente seja visível por trás */
+  color: transparent; 
+
+}
+.titulo-plano-blue{
+/* Define o gradiente de azul para vermelho */
+  background-image: linear-gradient(to right, blue 50%, red ) ; 
+/* Faz com que o texto seja a área de clipagem do gradiente */
+  -webkit-background-clip: text; 
+/* Torna o texto transparente para que o gradiente seja visível por trás */
+  color: transparent; 
+
+}
